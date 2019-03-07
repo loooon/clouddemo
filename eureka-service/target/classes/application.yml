@@ -1,0 +1,25 @@
+server:
+  port: 8761 #服务注册中心端口号
+spring:
+  application:
+    name: eureka-service-center
+
+
+eureka:
+  instance:
+    #    hostname: 127.0.0.1 #服务注册中心IP地址
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}:${spring.application.name}
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+logging:
+  level:
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF
