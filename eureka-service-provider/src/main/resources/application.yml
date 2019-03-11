@@ -13,7 +13,7 @@ spring:
     username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
-#
+  #
 #    #最大连接数
 #    maxActive: 30
 #    #最小连接数

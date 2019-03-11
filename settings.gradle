@@ -1,4 +1,6 @@
-rootProject.name = 'gs-service-registration-and-discovery'
+rootProject.name = 'clouddemo'
 
 include 'eureka-client'
+include 'eureka-client-consumer'
 include 'eureka-service'
+include 'eureka-service-provider'

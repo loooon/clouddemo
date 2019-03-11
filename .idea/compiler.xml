@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="clouddemo" target="1.5" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-client-consumer" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="eureka-service-provider" target="1.8" />
-      <module name="gs-service-registration-and-discovery" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

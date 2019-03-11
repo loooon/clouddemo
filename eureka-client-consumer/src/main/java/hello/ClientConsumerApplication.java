@@ -13,18 +13,20 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ImportResource;
 
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableFeignClients
 @EnableZuulProxy
+@ImportResource("classpath:applicationContext.xml")
 //启用服务注册与发现
 public class ClientConsumerApplication {
   public static void main(String[] args) {
     SpringApplication.run(ClientConsumerApplication.class, args);
   }
 
-
+/*
   static final String topicExchangeName = "spring-boot-exchange";
 
   static final String queueName = "spring-boot";
@@ -57,5 +59,5 @@ public class ClientConsumerApplication {
   @Bean
   MessageListenerAdapter listenerAdapter(Receiver receiver) {
     return new MessageListenerAdapter(receiver, "receiveMessage");
-  }
+  }*/
 }

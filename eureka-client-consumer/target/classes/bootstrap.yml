@@ -1,6 +1,12 @@
 spring:
   application:
     name: client-consumer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
 
 server:
   port: 8890
@@ -38,3 +44,5 @@ zuul:
   ignoredServices: '*'
   routes:
     users: /testFeign/**
+
+

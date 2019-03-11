@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:websocket="http://www.springframework.org/schema/websocket"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/websocket
+       http://www.springframework.org/schema/websocket/spring-websocket.xsd">
+
+    <!--<context:property-placeholder location="classpath:resources.properties"/>-->
+    <!--<context:component-scan base-package="org.springframework.websocket"/>-->
+
+    <!--<mvc:annotation-driven>-->
+        <!--<mvc:message-converters>-->
+            <!--<bean class="org.springframework.http.converter.ResourceHttpMessageConverter"/>-->
+            <!--<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">-->
+                <!--<property name="supportedMediaTypes">-->
+                    <!--<list>-->
+                        <!--<value>text/html;charset=UTF-8</value>-->
+                        <!--<value>application/json;charset=UTF-8</value>-->
+                    <!--</list>-->
+                <!--</property>-->
+            <!--</bean>-->
+        <!--</mvc:message-converters>-->
+    <!--</mvc:annotation-driven>-->
+
+    <!--&lt;!&ndash;静态资源&ndash;&gt;-->
+    <!--<mvc:resources mapping="/js/**" location="/js/"/>-->
+
+    <!--&lt;!&ndash;视图解析器&ndash;&gt;-->
+    <!--<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
+        <!--<property name="prefix" value="WEB-INF/pages/" />-->
+        <!--<property name="suffix" value=".jsp" />-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash;默认跳转到首页 &ndash;&gt;-->
+    <!--<mvc:view-controller path="/" view-name="index"/>-->
+
+    <websocket:handlers>
+        <websocket:mapping handler="marcoHandler_1" path="/marco1"/>
+        <websocket:sockjs/> <!--声明启用SockJS功能-->
+    </websocket:handlers>
+
+
+
+</beans>
