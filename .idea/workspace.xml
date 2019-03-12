@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8365fcaa-401a-4da6-b820-01cf78e9a327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/StompController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/Broadcast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/Shout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketHandshakeInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketStompConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/ClientConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/ClientConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/dev-bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/dev-bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/target/classes/dev-bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer/target/classes/dev-bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-consumer/target/classes/hello/ClientConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-consumer/target/classes/hello/ClientConsumerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/eureka-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service-provider/eureka-service-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/src/main/java/hello/ProviderRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service-provider/src/main/java/hello/ProviderRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/src/main/java/hello/RabbitMqReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/src/main/java/hello/Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/src/main/java/hello/ServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service-provider/src/main/java/hello/ServiceProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/target/classes/hello/ProviderRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service-provider/target/classes/hello/ProviderRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/target/classes/hello/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service-provider/target/classes/hello/ServiceProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service-provider/target/classes/hello/ServiceProviderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gs-service-registration-and-discovery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-service-provider/target/" />
@@ -57,46 +20,60 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-service-provider/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-service-provider/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-service-provider/src/main/java/hello/ServiceProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/ClientConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="135">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/StompController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/Broadcast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/Shout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -104,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="735">
               <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
@@ -113,20 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -134,17 +99,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/dev-bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="60">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketStompConfig.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketHandshakeInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
+            <state relative-caret-position="105">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -159,6 +124,10 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>convertAndSend</find>
+      <find>SimpMessagingTemplate</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello</dir>
     </dirStrings>
@@ -185,9 +154,9 @@
         <option value="$PROJECT_DIR$/eureka-service-provider/src/main/java/hello/ServiceProviderApplication.java" />
         <option value="$PROJECT_DIR$/eureka-service-provider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/dev-bootstrap.properties" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketStompConfig.java" />
         <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/ClientConsumerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketStompConfig.java" />
       </list>
     </option>
   </component>
@@ -270,45 +239,8 @@
             <path>
               <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,13 +349,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
       <window_info id="JRebel" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32546496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21959943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -432,12 +363,12 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.413253" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3698795" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40481928" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,13 +417,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/index.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_1.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_3.java">
@@ -500,16 +425,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_4.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketHandshakeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/Shout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,34 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/StompController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-service/src/main/java/hello/EurekaServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/Broadcast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -588,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-service-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -609,20 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-service-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/ClientConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -633,31 +503,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/eureka-service-provider/src/main/resources/dev-application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/eureka-service-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="80">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/dev-bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/eureka-service-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/index.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketStompConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
+        <state relative-caret-position="216">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WebSocketHandshakeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/ClientConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/dev-bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/MarcoHandler_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/Shout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/WsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/StompController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/hello/websocket/Broadcast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

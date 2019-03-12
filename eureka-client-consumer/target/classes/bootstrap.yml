@@ -2,8 +2,11 @@ spring:
   application:
     name: client-consumer
   rabbitmq:
-    host: localhost
+    host: 127.0.0.1
     port: 5672
+#    port: 4369
+#    port: 61613
+    virtual-host: /
     username: guest
     password: guest
     publisher-confirms: true
