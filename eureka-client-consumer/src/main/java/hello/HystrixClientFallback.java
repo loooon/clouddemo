@@ -5,7 +5,7 @@ import org.apache.catalina.Store;
 import java.util.List;
 
 
-class HystrixClientFallback implements StoreClient {
+class HystrixClientFallback implements ServiceProviderClient {
 
   @Override
   public List<Store> getStores() {

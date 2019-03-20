@@ -1,6 +1,6 @@
 package hello;
 
-import org.apache.catalina.Store;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -36,7 +36,7 @@ public class ServiceInvokeRestController {
    * call by feign
    */
   @Autowired
-  private StoreClient storeClient;
+  private ServiceProviderClient storeClient;
 
   @RequestMapping("/service-instances/{applicationName}")
   public List<ServiceInstance> serviceInstancesByApplicationName(
@@ -50,6 +50,7 @@ public class ServiceInvokeRestController {
    * @param name name
    * @return value
    */
+  @HystrixCommand(fallbackMethod = "helloFallback")
   @GetMapping("/hello/{name}")
   public String index(@PathVariable("name") String name) {
     return restTemplate.getForEntity("http://service-provider/hello/" + name, String.class).getBody();
@@ -60,10 +61,20 @@ public class ServiceInvokeRestController {
    *
    * @param name name
    * @return value
+   * HystrixCommand 这里使用HystrixCommand 注解配置熔断方法，当调用服务接口不可用时，调用本地方法 feignFallback
    */
+  @HystrixCommand(fallbackMethod = "feignFallback")
   @GetMapping("/testFeign/{name}")
   public String feign(@PathVariable("name") String name) {
     return storeClient.testFeign(name);
+  }
+
+  public String feignFallback(@PathVariable("name") String name) {
+    return "hello " + name + " ,this is returned by feignFallBack.";
+  }
+
+  public String helloFallback(@PathVariable("name") String name) {
+    return "hello " + name + " ,this is returned by helloFallback.";
   }
 
 

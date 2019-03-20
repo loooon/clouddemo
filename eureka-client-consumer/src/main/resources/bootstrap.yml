@@ -1,51 +1,53 @@
-spring:
-  application:
-    name: client-consumer
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-#    port: 4369
-#    port: 61613
-    virtual-host: /
-    username: guest
-    password: guest
-    publisher-confirms: true
-
-server:
-  port: 8890
-
-eureka:
-  instance:
-    prefer-ip-address: true
-    instance-id: ${spring.cloud.client.ip-address}:${server.port}:${spring.application.name}
-
-#  client:
-#    serviceUrl: #注册中心的注册地址
-#      defaultZone: http://127.0.0.1:8761/eureka/
-
+#spring:
+#  application:
+#    name: client-consumer
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    #    port: 4369
+#    #    port: 61613
+#    virtual-host: /
+#    username: guest
+#    password: guest
+#    publisher-confirms: true
 #
-#feign:
+#server:
+#  port: 8890
+#
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ip-address}:${server.port}:${spring.application.name}
 #  client:
-#    config:
-#      feignName:
-#        connectTimeout: 5000
-#        readTimeout: 5000
-#        loggerLevel: full
-#        errorDecoder: com.example.SimpleErrorDecoder
-#        retryer: com.example.SimpleRetryer
-#        requestInterceptors:
-#          - com.example.FooRequestInterceptor
-#          - com.example.BarRequestInterceptor
-#        decode404: false
-# support hystrix
-feign:
-  hystrix:
-    enabled: true
-
-
-zuul:
-  ignoredServices: '*'
-  routes:
-    users: /testFeign/**
-
-
+#    healthcheck:
+#      enabled: true
+##  client:
+##    serviceUrl: #注册中心的注册地址
+##      defaultZone: http://127.0.0.1:8761/eureka/
+#
+##
+##feign:
+##  client:
+##    config:
+##      feignName:
+##        connectTimeout: 5000
+##        readTimeout: 5000
+##        loggerLevel: full
+##        errorDecoder: com.example.SimpleErrorDecoder
+##        retryer: com.example.SimpleRetryer
+##        requestInterceptors:
+##          - com.example.FooRequestInterceptor
+##          - com.example.BarRequestInterceptor
+##        decode404: false
+## support hystrix
+#feign:
+#  hystrix:
+#    enabled: true
+#
+#
+##zuul:
+##  ignoredServices: '*'
+##  routes:
+##    users: /testFeign/**
+#
+#

@@ -8,24 +8,30 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-client-consumer" />
+        <module name="eureka-message-service" />
         <module name="eureka-service" />
         <module name="eureka-service-provider" />
+        <module name="eureka-turbine-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="clouddemo" target="1.5" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-client-consumer" target="1.8" />
+      <module name="eureka-message-service" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="eureka-service-provider" target="1.8" />
+      <module name="eureka-turbine-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client-consumer" options="-parameters" />
+      <module name="eureka-message-service" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
       <module name="eureka-service-provider" options="-parameters" />
+      <module name="eureka-turbine-service" options="-parameters" />
     </option>
   </component>
 </project>
