@@ -1,0 +1,51 @@
+server:
+  port: 8766
+
+spring:
+  application:
+    name: service-provider
+  jpa:
+    hibernate:
+      ddl-auto: update #     can be none, update, create, create-drop
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_example
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  #
+  #    #最大连接数
+  #    maxActive: 30
+  #    #最小连接数
+  #    minIdle: 5
+  #    #获取连接的最大等待时间
+  #    maxWait: 10000
+  #    #解决mysql8小时的问题
+  #    validationgQuery: SELECT 'X'
+  #    #空闲连接的检查时间间隔
+  #    timeBetweenEvictionRunsMillis: 60000
+  #    #空闲连接最小空闲时间
+  #    minEvictableIdleTimeMillis: 300000
+
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+
+
+eureka:
+  client:
+    #    register-with-eureka: false
+    #    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka  #注册 中心已经开启认证
+
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}:${spring.application.name}
+    prefer-ip-address: true
+logging:
+  level:
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF

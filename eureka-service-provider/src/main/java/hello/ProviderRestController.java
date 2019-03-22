@@ -16,6 +16,20 @@ public class ProviderRestController {
 
   @GetMapping("/testFeign/{name}")
   public String feignTest(@PathVariable String name) {
-    return "hello feign " + name;
+    return "port 8762, hello feign " + name;
   }
+
+
+  @GetMapping("/testBalance/{name}")
+  public String testBalance(@PathVariable String name) {
+    return "Hello,TestBalance ,this service port is 8762, welcome here: " + name;
+  }
+
+
+  @GetMapping("/service-provider/{name}")
+  public String testZuul(@PathVariable String name) {
+    return "hello! port 8762 testZuul, service-provider" + name;
+  }
+
+
 }

@@ -5,10 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/clouddemo.iml" filepath="$PROJECT_DIR$/clouddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" filepath="$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-consumer-2/eureka-client-consumer-2.iml" filepath="$PROJECT_DIR$/eureka-client-consumer-2/eureka-client-consumer-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-message-service/eureka-message-service.iml" filepath="$PROJECT_DIR$/eureka-message-service/eureka-message-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-zuul/eureka-service (1).iml" filepath="$PROJECT_DIR$/eureka-zuul/eureka-service (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-service-provider/eureka-service-provider.iml" filepath="$PROJECT_DIR$/eureka-service-provider/eureka-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service-provider-2/eureka-service-provider-2.iml" filepath="$PROJECT_DIR$/eureka-service-provider-2/eureka-service-provider-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-turbine-service/eureka-turbine-service.iml" filepath="$PROJECT_DIR$/eureka-turbine-service/eureka-turbine-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" filepath="$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" />
     </modules>
   </component>
 </project>

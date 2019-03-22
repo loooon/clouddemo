@@ -11,10 +11,13 @@
     <modules>
         <module>eureka-client</module>
         <module>eureka-client-consumer</module>
+        <module>eureka-client-consumer-2</module>
         <module>eureka-turbine-service</module>
         <module>eureka-message-service</module>
         <module>eureka-service</module>
+        <module>eureka-zuul</module>
         <module>eureka-service-provider</module>
+        <module>eureka-service-provider-2</module>
     </modules>
 
 </project>

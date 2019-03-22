@@ -63,6 +63,7 @@ public class ServiceInvokeRestController {
    * @return value
    * HystrixCommand 这里使用HystrixCommand 注解配置熔断方法，当调用服务接口不可用时，调用本地方法 feignFallback
    */
+  @LoadBalanced
   @HystrixCommand(fallbackMethod = "feignFallback")
   @GetMapping("/testFeign/{name}")
   public String feign(@PathVariable("name") String name) {
@@ -77,5 +78,10 @@ public class ServiceInvokeRestController {
     return "hello " + name + " ,this is returned by helloFallback.";
   }
 
+
+  @GetMapping("/service-provider/{name}")
+  public String testZuul(@PathVariable String name) {
+    return storeClient.testFeign(name);
+  }
 
 }
